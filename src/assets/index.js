@@ -5,7 +5,6 @@ import mobile from "./mobile.png";
 import uidesigner from "./uidesigner.png"
 
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -22,12 +21,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-// import java from "./tech/java.jpg"
+import java from "./tech/java.png"
 import sql from  "./tech/sql.png";
-// import meta from "./company/meta.png";
-// import shopify from "./company/shopify.png";
-// import starbucks from "./company/starbucks.png";
-// import tesla from "./company/tesla.png";
+import ejs from "./tech/ejs.png"
+import bootstrap from "./tech/bootstrap.jpeg"
+import cpp from "./tech/c++.png"
+import jquery from "./tech/jquery.png"
+import mongoose from "./tech/mongoose.jpeg"
+import github from "./tech/github.png";
+
 import iiitulogo from "./company/iiitulogo.png";
 import iiitueconnect from "./iiitueconnect.png"
 import ecommerce from "./ecommerce.png"
@@ -36,6 +38,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  mongoose,
+  jquery,
+  cpp,
+  bootstrap,
+  ejs,
   ecommerce,
   iiitueconnect,
   uidesigner,
@@ -53,7 +60,7 @@ export {
   git,
   html,
   javascript,
-  // java,
+  java,
   sql,
   mongodb,
   nodejs,
@@ -62,10 +69,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  // meta,
-  // shopify,
-  // starbucks,
-  // tesla,
+  
   iiitulogo,
   carrent,
   jobit,

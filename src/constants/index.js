@@ -9,7 +9,7 @@ import {
   css,
   reactjs,
   uidesigner,
-  // java,
+  java,
   sql,
   redux,
   tailwind,
@@ -18,6 +18,11 @@ import {
   git,
   figma,
   docker,
+  ejs,
+  mongoose,
+  cpp,
+  bootstrap,
+  github,
   
   iiitueconnect,
  ecommerce,
@@ -27,18 +32,47 @@ import {
   threejs,
 } from "../assets";
 
+// export const navLinks = [
+//   {
+//     id: "https://drive.google.com/file/d/1kCY5H3nyoJvpGOY3sdkB1Qy4FvXqRf-K/view?usp=sharing",
+//     title:"Resume"
+
+//   },
+//   {
+//     id: "about",
+//     title: "About",
+//   },
+//   {
+//     id: "work",
+//     title: "Work",
+//   },
+//   {
+//     id: "contact",
+//     title: "Contact",
+//   },
+// ];
+
 export const navLinks = [
+  {
+    id: "resume",
+    title: "Resume",
+    type: "external",
+    url: "https://drive.google.com/file/d/1kCY5H3nyoJvpGOY3sdkB1Qy4FvXqRf-K/view?usp=sharing",
+  },
   {
     id: "about",
     title: "About",
+    type: "internal",
   },
   {
     id: "work",
     title: "Work",
+    type: "internal",
   },
   {
     id: "contact",
     title: "Contact",
+    type: "internal",
   },
 ];
 
@@ -78,10 +112,7 @@ const technologies = [
   //   name: "TypeScript",
   //   icon: typescript,
   // },
-  // {
-  //    name:"Java",
-  //    icon:java
-  // },
+ 
   {
     name: "React JS",
     icon: reactjs,
@@ -94,6 +125,16 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  { name :"Bootstrap",
+    icon: bootstrap
+
+  },
+  { name :"EJS",
+    icon: ejs
+
+  },
+ 
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -101,6 +142,10 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  { name :"Mongoose",
+    icon: mongoose
+
   },
   {
     name: "SQL",
@@ -114,6 +159,18 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  { name :"Github",
+    icon: github
+
+  },
+  {
+    name:"Java",
+    icon:java
+ },
+ { name :"C++",
+  icon: cpp
+
+},
   {
     name: "figma",
     icon: figma,
@@ -196,11 +253,11 @@ const projects = [
       },
     ],
     image: iiitueconnect, // Replace with the appropriate image variable
-    source_code_link: "https://github.com/", // Replace with the actual link if available
+    source_code_link: "https://github.com/crazyay/iiitueConnect", // Replace with the actual link if available
   },
 
   {
-    name: "CrazyShop",
+    name: "E-Shop",
     description:
       "E-commerce platform developed using HTML, CSS, JavaScript, and EJS, offering a responsive and user-friendly interface for browsing, purchasing, and managing products. The backend is powered by Node.js, Express, and MongoDB.",
     tags: [
@@ -230,7 +287,7 @@ const projects = [
       },
     ],
     image: ecommerce, 
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/crazyay/e-commerce",
   }
   
   
