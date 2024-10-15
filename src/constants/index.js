@@ -57,7 +57,7 @@ export const navLinks = [
     id: "resume",
     title: "Resume",
     type: "external",
-    url: "https://drive.google.com/file/d/1kCY5H3nyoJvpGOY3sdkB1Qy4FvXqRf-K/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1laCAGXjcjxIawSdEsBkwjYQFqZNjh3w-/view?usp=sharing",
   },
   {
     id: "about",
@@ -175,10 +175,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -190,11 +190,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2024 - Present",
     points: [
-      "Collaborated with a team to develop and maintain the official college website.",
-      "Implemented responsive UI components using HTML, CSS, JavaScript, and React.js.",
-      "Worked closely with backend developers to integrate APIs and enhance user experience.",
-      "Conducted testing sessions for load handling, efficiency, and security, and gathered feedback to make necessary improvements.",
-    ],
+      "Redesigned and optimized the official college website, leading to a 30% increase in user engagement and reducing page load times by 90%.",
+"Developed scalable RESTful APIs using Node.js and Express.js, ensuring seamless communication between the frontend and backend systems.",
+"Built and implemented responsive UI components using HTML, CSS, Tailwind, JavaScript, and React.js, ensuring cross-device compatibility.",
+"Collaborated with a team to design and integrate database systems using MongoDB, improving data storage and retrieval efficiency.",
+"Conducted comprehensive unit, integration, and user acceptance testing (UAT), leading to significant performance and usability enhancements."
+],
   }
   
 
@@ -202,14 +203,7 @@ const experiences = [
 ];
 
 const testimonials = [
-  // {
-  //   testimonial:
-  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //   name: "Sara Lee",
-  //   designation: "CFO",
-  //   company: "Acme Co",
-  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-  // },
+ 
   // {
   //   testimonial:
   //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
@@ -218,14 +212,7 @@ const testimonials = [
   //   company: "DEF Corp",
   //   image: "https://randomuser.me/api/portraits/men/5.jpg",
   // },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+ 
 ];
 
 const projects = [
@@ -233,7 +220,7 @@ const projects = [
   {
     name: "IIITUEConnect",
     description:
-      "A comprehensive web application designed for the Indian Institute of Information Technology Una, enabling online registration, complaint submission, and application processing, replacing the traditional paper-based system.",
+      "A comprehensive web application designed for the Indian Institute of Information Technology Una, enabling online registrations, complaint submission, and application processing, replacing the traditional paper-based system.",
     tags: [
       {
         name: "react",
@@ -257,7 +244,7 @@ const projects = [
   },
 
   {
-    name: "E-Shop",
+    name: "Easy-Shop",
     description:
       "E-commerce platform developed using HTML, CSS, JavaScript, and EJS, offering a responsive and user-friendly interface for browsing, purchasing, and managing products. The backend is powered by Node.js, Express, and MongoDB.",
     tags: [
@@ -291,69 +278,7 @@ const projects = [
   }
   
   
-  // {
-  //   name: "Car Rent",
-  //   description:
-  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
