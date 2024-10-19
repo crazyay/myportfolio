@@ -1,14 +1,22 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import React, { Suspense, useEffect,useRef, useState } from "react";
+import { Canvas ,useFrame} from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF, } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./webdev/scene.gltf");
 
+  const ref = useRef();
+
+  // // Use the useFrame hook to rotate the model slowly
+  // useFrame(() => {
+  //   if (ref.current) {
+  //     ref.current.rotation.y += 1; // Adjust rotation speed here
+  //   }
+  // });
   return (
-    <mesh>
+    <mesh ref={ref}>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
@@ -21,9 +29,10 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
+        // scale={10}
+        scale={isMobile ? 0.7 : 1}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        rotation={[0.2, 0,0]}
       />
     </mesh>
   );
