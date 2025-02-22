@@ -54,10 +54,10 @@ import {
 
 export const navLinks = [
   {
-    id: "resume",
+    id: "resume", 
     title: "Resume",
     type: "external",
-    url: "https://drive.google.com/file/d/1laCAGXjcjxIawSdEsBkwjYQFqZNjh3w-/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1VdPehR5HhVH7D25zL28FwsHo4IpOYt7O/view?usp=drive_link",
   },
   {
     id: "about",
